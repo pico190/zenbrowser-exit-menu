@@ -1,0 +1,41 @@
+.titlebar-buttonbox {
+    margin-right: 20px;
+}
+
+.titlebar-button {
+    padding: 0px !important;
+    min-height: 13px !important;
+    min-width: 13px !important;
+    align-self: center;
+    margin-left: 5px !important;
+    border-radius: 50px;
+    transition: all 100ms;
+}
+
+.titlebar-min {
+    background-color: #00C54E!important;
+}
+
+.titlebar-max, .titlebar-restore {
+    background-color: #FFB842 !important;
+}
+
+.titlebar-close {
+    background-color: #FF5C58 !important;
+}
+
+.titlebar-min:hover {
+    background-color: #07ea60!important;
+}
+
+.titlebar-max:hover, .titlebar-restore:hover {
+    background-color: #fac165 !important;
+}
+
+.titlebar-close:hover {
+    background-color: #fc7976 !important;
+}
+
+.titlebar-button > image {
+    visibility: collapse !important;
+}
